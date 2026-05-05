@@ -10,6 +10,17 @@ npm run dev
 
 Open `http://localhost:5173`, or use the active fallback server at `http://127.0.0.1:5174` if port `5173` is occupied.
 
+## Deploy
+
+GitHub Actions deploys this static site to GitHub Pages on every push to `main`.
+
+In GitHub, set:
+
+```txt
+Settings → Pages → Source → GitHub Actions
+Custom domain → maigyaan.in
+```
+
 ## What is implemented
 
 - AI Search chat surface with a recruitment-specialist prompt, top 3 references, and a boundary response for non-career questions.
