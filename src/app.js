@@ -398,9 +398,9 @@ function renderResumeBuilder() {
   return `
     <section class="two-pane">
       <header class="section-head">
-        <p class="eyebrow">Reference: AutoResumeBuilder</p>
+        <p class="eyebrow">Standalone resume workflow</p>
         <h1>Resume Builder</h1>
-        <p>This page mirrors the existing resume workflow without importing the Streamlit code into this SPA.</p>
+        <p>Create an ATS-ready resume flow directly inside AI Gyaan. Future backend services can parse uploads, detect missing details, and generate tailored drafts.</p>
       </header>
       <div class="tool-panel">
         <label>Target job description<textarea placeholder="Paste the lock description to tailor your key."></textarea></label>

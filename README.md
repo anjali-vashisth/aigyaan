@@ -21,7 +21,7 @@ Open `http://localhost:5173`, or use the active fallback server at `http://127.0
 - Profile button in the top navigation opens a right-side profile/settings drawer with Google and LinkedIn login entry points.
 - Top-brand career page shortcuts for Google, Microsoft, JP Morgan, Morgan Stanley, Wells Fargo, Amazon, and Flipkart.
 - Focus section with a candle image, timer, and honest completion flow that increases the next round by 5 seconds.
-- Resume Builder screen that follows the existing `AutoResumeBuilder` architecture as a reference.
+- Standalone Resume Builder screen for future resume parsing, missing-detail review, ATS drafting, and recruiter keyword guidance.
 - Create Locks workflow for hirers/problem owners.
 
 The current AI answer synthesis and reranking are still local prototype logic in `src/app.js`. Replace `runAiSearch` and `rerankSources` with backend API calls when live search, reranking, and LLM providers are connected.
